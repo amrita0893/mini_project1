@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="6dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recycler Number"
+        android:layout_marginRight="10dp"
+        android:textColor="#000"
+        android:id="@+id/text_view1"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Name"
+
+        android:textColor="#000"
+        android:id="@+id/text_view2"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="College Name"
+        android:textColor="#000"
+        android:id="@+id/text_view3"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number"
+        android:textColor="#000"
+        android:id="@+id/text_view4"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fees"
+        android:textColor="#000"
+        android:id="@+id/text_view5"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+
+</LinearLayout>
+</LinearLayout>
+
+
+</RelativeLayout>
